@@ -11,15 +11,18 @@
         <h1>explained</h1>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
         </div>
+        <header-chart-art />
     </header>
 </template>
 <script>
 import HeaderlayerArt from '../components/art/HeaderlayerArt'
+import HeaderChartArt from '../components/art/HeaderChartArt'
 import Logo from '../components/Logo'
 import Button from '../components/Button'
 export default {
     components:{
         HeaderlayerArt,
+        HeaderChartArt,
         Logo,
         Button
     }
