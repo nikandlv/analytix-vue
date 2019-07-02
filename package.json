@@ -12,7 +12,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "normalize-stylus": "^1.0.1",
+    "nuxt": "^2.0.0",
+    "stylus-loader": "^3.0.2"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
