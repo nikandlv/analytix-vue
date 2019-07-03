@@ -5,7 +5,7 @@
 </template>
 <style lang="stylus">
 button
-    background-color rgba(white,0.5)
+    background-color rgba(white,0.3)
     color white
     -webkit-box-shadow: 0px 13px 26px -16px rgba(0,0,0,0.41);
     -moz-box-shadow: 0px 13px 26px -16px rgba(0,0,0,0.41);

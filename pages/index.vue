@@ -6,7 +6,7 @@
     <why-section />
     <steps-section />
     <quotes-section />
-    <br/><br/><br/><br/>
+    <footer-section />
   </div>
 </template>
 <script>
@@ -16,6 +16,7 @@ import StatSection from '../layouts/StatSection'
 import WhySection from '../layouts/WhySection'
 import StepsSection from '../layouts/StepsSection'
 import QuotesSection from '../layouts/QuotesSection'
+import FooterSection from '../layouts/FooterSection'
 export default {
   components:{
     HeaderSection,
@@ -23,7 +24,8 @@ export default {
     StatSection,
     WhySection,
     StepsSection,
-    QuotesSection
+    QuotesSection,
+    FooterSection
   }
 }
 </script>
