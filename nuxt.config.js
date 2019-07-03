@@ -37,6 +37,9 @@ export default {
   /*
   ** Build configuration
   */
+ router: {
+  base: '/demo/view/analytix-vue/'
+  },
   build: {
     /*
     ** You can extend webpack config here
