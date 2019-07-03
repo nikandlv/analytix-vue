@@ -8,6 +8,7 @@
                 <v-input placeholder="example@nikandlv.ir" />
                 <v-button>Try for free</v-button>
             </div>
+            <copyright-section />
         </div>
     </footer>
 </template>
@@ -15,11 +16,13 @@
 import FooterArt from '../components/art/FooterArt'
 import VButton from '../components/Button'
 import VInput from '../components/Input'
+import CopyrightSection from './CopyrightSection'
 export default {
     components:{
         FooterArt,
         VButton,
-        VInput
+        VInput,
+        CopyrightSection
     }
 }
 </script>
@@ -31,7 +34,8 @@ footer
     display flex
     .content
         max-width 40%
-        display block
+        display flex
+        flex-direction column
         margin 0 auto 
         margin-top 100px
         position relative
@@ -42,7 +46,7 @@ footer
         p
             color rgba(white,0.7)
         .input
-            margin-top 60px
+            margin-top 10px
             display flex
             align-items center
             justify-content  center
