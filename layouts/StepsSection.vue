@@ -45,6 +45,7 @@ export default {
     .tabs
         display flex
         margin 24px 0
+        overflow-y auto
         .tab
             transition border-bottom-color  500ms
             padding 10px

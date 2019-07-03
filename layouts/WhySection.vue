@@ -36,6 +36,8 @@ export default {
         margin-top 50%
         .text-section
             max-width 40%
+            position relative
+            z-index 10
             margin-left 12rem
             h1
                 color white
@@ -46,4 +48,11 @@ export default {
                 color white
                 margin 10px 0
                 text-decoration none
+@media (max-width 1000px)
+    .text-section
+        max-width 100% !important
+        margin-left 0rem !important
+        background white
+        padding 1rem
+        box-sizing border-box
 </style>

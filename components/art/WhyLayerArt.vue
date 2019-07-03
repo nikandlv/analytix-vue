@@ -21,4 +21,9 @@
     width 100%
     height auto
     position absolute
+@media (max-width 1000px)
+  .why-layer-art
+    max-width: unset !important
+    width: 200%;
+    height: 200vh;
 </style>

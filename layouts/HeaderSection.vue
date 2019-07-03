@@ -35,6 +35,15 @@ export default {
 }
 </script>
 <style lang="stylus">
+@media (max-width 1000px)
+    .text-section
+        margin-top 10px !important
+        h1,p
+            color black !important
+    .top-bar
+        padding 1rem 4rem !important
+    .search-section
+        margin-top 100vh
 header
     position relative
     .text-section
@@ -64,7 +73,10 @@ header
             position relative
     .search-section
         display flex
-        position relative
+        position absolute
+        left 0
+        right 0
+        margin 0 auto
         justify-content center
         z-index 10
         button 

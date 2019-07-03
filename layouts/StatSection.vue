@@ -41,5 +41,8 @@ export default {
     flex-direction row-reverse
     justify-content center
     overflow-y auto
-
+@media (max-width 1000px)
+    .stat-section
+        flex-direction column-reverse
+        align-items center
 </style>

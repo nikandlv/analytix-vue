@@ -9,4 +9,7 @@
     width 40%
     height auto
     position absolute
+@media (max-width 1000px)
+  .why-art
+    width 100%
 </style>

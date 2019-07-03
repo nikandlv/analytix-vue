@@ -33,15 +33,24 @@
 <style lang="stylus">
 .comapnies-section
     margin-top 90vh
+    overflow-y auto
+    max-width 100%
     .company-row
         position relative
         z-index 10
         display flex
-        overflow-y auto
         justify-content center
         .company-item
             img
                 height 32px
                 width auto
                 margin 20px
+@media (max-width 1000px)
+    .comapnies-section
+        margin-top 40vh
+    .company-row
+        flex-direction column
+        align-items center
+        
+            
 </style>

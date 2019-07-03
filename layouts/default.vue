@@ -11,4 +11,5 @@
   src url('../assets/seguibl.ttf')
 .root
   font-family 'Muli', sans-serif
+  overflow hidden
 </style>

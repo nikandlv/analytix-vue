@@ -8,6 +8,7 @@
 .copyright
     display flex
     color white
+    overflow-y auto
     margin-top 20px
     span
         margin 10px 32px
