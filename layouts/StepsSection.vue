@@ -9,10 +9,22 @@
                 <span v-on:click="tab=3" :class="tab === 3?'tab active':'tab'">Set goals and Hypothesis</span>
             </div>
         </div>
+        <div class="content-section">
+            <div class="text-section">
+                <h2>Why do you need task management software?</h2>
+                <p>Do you waste time organizing sticky notes, searching your email and apps for todos and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time and meet your deadlines.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <steps-art />
+        </div>
     </div>
 </template>
 <script>
+import StepsArt from '../components/art/StepsArt'
 export default {
+    components:{
+        StepsArt
+    },
     data:function() {
         return {
             tab:3
@@ -42,4 +54,20 @@ export default {
             cursor pointer
             &.active
                 border-bottom 2px solid #73a9ff
+    .content-section
+        display flex
+        padding 0 16vw
+        align-items center
+        .text-section
+            max-width 50%
+            h2
+                max-width 50%
+                color darken(#637eab,20)
+            p
+                color #637eab
+                margin 40px 0
+            a
+                font-weight bold
+                color darken(#637eab,20)
+                text-decoration none
 </style>
