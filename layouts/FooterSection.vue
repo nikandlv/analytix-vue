@@ -74,4 +74,6 @@ footer
             max-width 100%
             h1,p,span
                 color black 
+            button 
+                color black 
 </style>
