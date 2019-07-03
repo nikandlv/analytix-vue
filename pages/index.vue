@@ -3,6 +3,7 @@
     <header-section />
     <companies-section />
     <stat-section />
+    <why-section />
     <br/><br/><br/><br/>
   </div>
 </template>
@@ -10,11 +11,13 @@
 import HeaderSection from '../layouts/HeaderSection'
 import CompaniesSection from '../layouts/CompaniesSection'
 import StatSection from '../layouts/StatSection'
+import WhySection from '../layouts/WhySection'
 export default {
   components:{
     HeaderSection,
     CompaniesSection,
-    StatSection
+    StatSection,
+    WhySection
   }
 }
 </script>

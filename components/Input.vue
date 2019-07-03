@@ -7,5 +7,6 @@
     border unset
     border-radius 100px
     padding 0.8rem 1rem
+    outline unset
 </style>
 
