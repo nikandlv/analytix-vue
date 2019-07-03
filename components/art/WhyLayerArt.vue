@@ -24,6 +24,9 @@
 @media (max-width 1000px)
   .why-layer-art
     max-width: unset !important
-    width: 200%;
+    width: unset
+    height: 300vh;
+@media (max-width 500px)
+  .why-layer-art
     height: 200vh;
 </style>

@@ -46,10 +46,13 @@ export default {
     .client
         margin-top 50px
         display flex
-        justify-content center
+        justify-content center            
         .client-image
             box-shadow 0px 13px 40px -0px rgba(#73a9ff,0.7)
             position relative
+            display table
+            width 25vw
+            height auto
             &:before
                 content ''
                 position absolute
@@ -60,7 +63,7 @@ export default {
                 border-top-left-radius 50px
                 background rgba(#1771ff,0.7)
             img
-                max-width 300px
+                width 100%
                 height auto
                 display block
             .play-button
@@ -78,4 +81,20 @@ export default {
      
             h2,h5
                 color darken(#637eab,20)
+@media (max-width 1000px)
+    .quotes-section
+        .client
+            flex-direction column
+            .client-image
+                width 40vw
+                margin 0 auto
+                .play-button
+                    position absolute
+                    right 16%
+                    width 12px
+                    bottom 0%
+    .client-quote
+        max-width 100% !important
+        padding 1.5rem !important
+        text-align center
 </style>

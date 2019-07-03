@@ -71,4 +71,16 @@ export default {
                 font-weight bold
                 color darken(#637eab,20)
                 text-decoration none
+@media (max-width 1000px)
+    .steps-section
+        margin-top 100%
+    .title-section
+        max-width 90% !important
+    .content-section
+        padding 0 1vw !important
+        flex-direction column
+        .text-section
+            max-width 100% !important
+            h2
+                max-width 100% !important
 </style>
