@@ -33,4 +33,10 @@
     max-width 100%
     width 100%
     height auto
+@media (max-width 1000px)
+  .footer-art
+    max-width: unset !important
+    width: 200% !important
+    height: 235vh !important
+
 </style>

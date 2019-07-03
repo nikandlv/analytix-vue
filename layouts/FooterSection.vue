@@ -65,5 +65,13 @@ footer
 
             button 
                 margin 0 10px
-                padding 1rem 1.5rem
+                padding 1rem 1.5rem\
+
+@media (max-width 1000px)
+    footer 
+        padding 6rem 0 !important
+        .content
+            max-width 100%
+            h1,p,span
+                color black 
 </style>
